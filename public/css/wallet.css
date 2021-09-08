@@ -1,0 +1,248 @@
+#wallet > .content { 
+    flex: auto;
+    padding: 98px 30px 10px;
+}
+
+#wallet > .content > .inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#user_overview {
+    margin: 0 -2em;
+}
+.balance {
+    margin: 2em 2em;
+}
+.balance h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.balance .balance_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfa;
+    margin-top: 1em;
+    padding: 2em;
+    border: 2px rgba(65, 59, 132, 0.1) solid;
+    border-radius: 20px;
+}
+.balance .credits {
+    display: block;
+    font-size: 3em;
+    font-weight: 400;
+}
+.balance a.topup {
+    display: block;
+    margin-top: 1em;
+    min-width: 10em;
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+.balance a.topup:hover
+{
+
+    background: linear-gradient(360deg, #0162c8, #55e7fc);
+ 
+    animation: animate 4s linear infinite;
+ 
+}
+
+@keyframes animate {
+    0% 
+    {
+        background: linear-gradient(360deg, #0162c8, #55e7fc);
+
+    }
+    30% 
+    {
+        background: linear-gradient(300deg, #0162c8, #55e7fc);
+
+    }
+    50%
+    {
+        background: linear-gradient(240deg, #0162c8, #55e7fc);
+
+    }
+    50%
+    {
+        background: linear-gradient(180deg, #0162c8, #55e7fc);
+
+    }
+    100%
+    {
+        background: linear-gradient(140deg, #0162c8, #55e7fc);
+
+    }
+}
+
+
+#sub_acc_intro {
+    margin: 2em 0;
+    padding: 0 2em;
+    background: #ffe;
+    border: 1px rgba(0,0,0,.1) solid;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub_acc_intro img {
+    flex: none;
+    width: 20%;
+    margin: 2em;
+}
+#sub_acc_intro article {
+    flex: auto;
+    margin: 2em;
+}
+#sub_acc_intro h3 {
+    margin-bottom: 1em;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+#sub_acc_intro p {
+    margin: 1em 0 0;
+}
+
+
+
+
+
+
+#user_acc_info {
+    border: 1px solid #7d7c7c;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+#user_acc_info > ul {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+#user_acc_info li.title {
+    border: none;
+}
+#user_acc_info > ul > li {
+    display: table-row;
+    border-top: 1px #eee solid;
+}
+#user_acc_info li.title > div {
+    background: #f8f8f8;
+    color: rgba(0,0,0,.5);
+}
+#user_acc_info li > div:first-of-type {
+    padding-left: 2em;
+}
+#user_acc_info .dtime {
+    white-space: nowrap;
+    text-align: center;
+}
+#user_acc_info > ul > li > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1.25em 1em;
+        padding-left: 1em;
+}
+
+#user_acc_info li > div:last-of-type {
+    padding-right: 2em;
+}
+
+#user_acc_info > ul > li {
+    display: table-row;
+    border-top: 1px #eee solid;
+}
+
+@media(max-width: 662px)
+{
+    #sub_acc_intro {
+        display: block;
+    }
+    #sub_acc_intro img {
+        width: 10em;
+        margin: 2em 2em 2em 0;
+        float: left;
+    }
+    #sub_acc_intro article {
+        margin: 2em 0;
+    }
+
+    #user_acc_info li.title
+    {
+        display: none;
+    }
+    #user_acc_info > ul > li {
+        background: #fff;
+        border-top: 1px rgba(0,0,0,.1) solid;
+        padding: 1em 0 0;
+        margin: 1em 0 0;
+        position: relative;
+    }
+    #user_acc_info .credit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 1em 0;
+    }
+    #user_acc_info .balance {
+        display: none;
+    }
+    #user_acc_info .out {
+        color: red;
+    }
+    #user_acc_info .price {
+        font-size: 2em;
+        font-weight: 400;
+    }
+    #user_acc_info .note {
+        margin-top: 1em;
+        opacity: .5;
+    }
+
+    #user_acc_info li > div:first-of-type {
+        padding-left: 0em;
+    }
+    #user_acc_info > ul > li > div {
+        padding: 1.25em 0.1em;
+        padding-left: 0em;
+    }
+    #user_acc_info .price {
+        font-size: 0.8em;
+    }
+    #user_acc_info li > div:last-of-type {
+        padding-right: 0;
+    }
+}
+@media (max-width: 486px) {
+    #user_acc_info li .dtime
+    {
+        display: none;
+    }
+    #sub_acc_intro img {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,348 @@
+section 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 140px 0 80px;
+}
+
+
+section .container
+{
+    position: relative;
+    min-height: 550px;
+    display: 550px;
+    display: flex;
+    z-index: 998;
+    
+}
+
+section .container .contactinfo 
+{
+    
+    position: absolute;
+    top: 60px;
+    width: 340px;
+    height: calc(100% - 130px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+section .container .contactinfo h2
+{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+}
+section .container .contactinfo .info 
+{
+    position: relative;
+    margin: 20px 0;
+}
+section .container .contactinfo .info li  
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+section .container .contactinfo .info li  span:nth-child(1)
+{
+    width: 30px;    
+    min-width: 30px;
+}
+section .container .contactinfo .info li  span:nth-child(1) img 
+{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+section .container .contactinfo .info li  span:nth-child(2)
+{
+    color: #fff;
+    padding-left: 5px;
+}
+
+section .container .contactinfo .info li:hover  span:nth-child(1) img ,
+section .container .contactinfo .info li:hover  span:nth-child(2)
+{
+    color: #127cd2;
+    padding-left: 15px;
+}
+section .container .contactForm {
+    position: relative;
+    padding: 70px 50px;
+    background: #fff;
+    margin-left: 180px;
+    padding-left: 250px;
+    width: calc(100% - 300px);
+    height: 100%;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+}
+section .container .contactForm h2 
+{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+section .container .contactForm .formBox
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+section .container .contactForm .formBox .inputBox
+{
+    position: relative;
+    margin: 0 0 35px 0;
+}
+section .container .contactForm .formBox .inputBox.w50
+{
+    width: 47%;
+}
+section .container .contactForm .formBox .inputBox.w100
+{
+    width: 100%;
+    margin-bottom: 60px !important
+}
+section .container .contactForm .formBox .inputBox input ,
+section .container .contactForm .formBox .inputBox textarea 
+{
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+    resize: none;
+}
+section .container .contactForm .formBox .inputBox textarea 
+{
+    min-height: 120px;
+}
+section .container .contactForm .formBox .inputBox span 
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: .5s;
+    pointer-events: none;
+} 
+section .container .contactForm .formBox .inputBox input:focus ~ span,
+section .container .contactForm .formBox .inputBox textarea:focus ~ span,
+section .container .contactForm .formBox .inputBox input:valid ~ span,
+section .container .contactForm .formBox .inputBox textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff568c;
+}
+
+section .container .contactForm .formBox .inputBox input[type="submit"]
+{
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+section .container .contactForm .formBox .inputBox input[type="submit"]:hover 
+{
+
+  
+    background: linear-gradient(360deg, #0162c8, #55e7fc);
+    animation: animate 4s linear infinite;
+
+}
+
+
+
+@keyframes animate {
+    0% 
+    {
+        background: linear-gradient(360deg, #0162c8, #55e7fc);
+
+    }
+    30% 
+    {
+        background: linear-gradient(300deg, #0162c8, #55e7fc);
+
+    }
+    50%
+    {
+        background: linear-gradient(240deg, #0162c8, #55e7fc);
+
+    }
+    50%
+    {
+        background: linear-gradient(180deg, #0162c8, #55e7fc);
+
+    }
+    100%
+    {
+        background: linear-gradient(140deg, #0162c8, #55e7fc);
+
+    }
+}
+
+
+
+ .container
+{
+    width: 90%;
+    min-height: auto;
+    margin: 20px;
+}
+
+
+
+
+
+
+section .container .contactForm .formBox .inputBox a
+{
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 1200px) 
+{
+    
+    section .contactinfo 
+    {
+        top: 0 !important;
+        height: 550px !important;
+        position: relative !important;
+    }
+    .container .contactForm
+    {
+        position: absolute !important;
+        width: calc(100% - 350px) !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        padding: 40px !important;
+        height: 550px !important;
+
+    }
+ } 
+ @media (max-width: 921px) 
+ {
+    section .container 
+    {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .container .contactForm
+    {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        border-radius: 0 0 20px 20px !important;
+
+    }
+    .container .contactinfo
+    {
+        width: 100% !important;
+        height: auto !important;
+        border-radius: 20px 20px 0 0 !important;
+
+    }
+ }
+
+ @media (max-width: 600px) 
+ {
+    
+
+    section .container
+    {
+        padding: 0;
+    }
+    .container .contactForm
+    {
+        padding: 25px !important;
+    }
+    .container .contactinfo
+    {
+        padding: 25px;
+    }
+
+    section .container .contactForm .formBox .inputBox.w50
+    {
+        width: 100%;
+    }
+    section .container .contactForm .formBox .inputBox.w100
+{
+    width: 100%;
+    margin-bottom: 100px !important
+}
+
+ }
+
+ .payment-ID,
+ span.upload-image
+ {
+    transform: translateY(-20px);
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    color: #ff568c !important;
+ }
+ .will-get
+ {
+    left: 110px !important;
+    font-size: 20px !important;
+    color: green !important;
+ }
+
+.important-note
+{
+    font-size: 13px !important;
+    left: 130px !important;
+    color: red !important;
+    top: 5px !important;
+}
+
+

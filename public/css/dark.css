@@ -1,0 +1,194 @@
+
+.cover,
+ body,
+.footer,
+#pdt_note > .inner
+{
+  background: #161616;
+}
+
+.bg-white {
+  background-color: #161616 !important;
+}
+.bg-light {
+  background-color: #242424 !important;
+}
+.text-dark {
+  color: #fff !important;
+} 
+.border-top {
+  border-top-color: #212426 !important;
+}
+.border {
+  border-color:#212426 !important;
+}
+.img-thumbnail {
+  background-color: #161616;
+  border-color: #212426;
+}
+.page-link {
+
+  background-color: #161616;
+  border: 1px solid #212426;
+}
+h3, p, a {
+  color: #fff;
+}
+
+/* header */
+  .navbar-soscial {
+      background: #181818;
+  }
+  
+  .slider {
+      border-top: 1px solid #565252;
+  }
+  header .search input.form-control {
+      background-color: #212121;
+      border: 1px solid #212121;
+      color: #fff;
+  }
+  header  i.fa-shopping-cart{
+    background: transparent !important;
+  }
+  header.border-bottom {
+    border-bottom-color: #212529 !important;
+}
+header .navbar-toggler {
+  border-color: #212529 !important;
+}
+header .navbar-toggler:hover {
+  background-color: #333131 !important;
+}
+.navbar-nav .nav-item .nav-link {
+  border-left-color: transparent;
+}
+.user-icon ul {
+  background-color: #1e1e1e;
+}
+.user-icon li:hover a {
+  color: #fff;
+  background-color: #313335;
+}
+/* Product */
+
+#pdt_note .inner {
+  color: #fff;
+}
+form .wrapper {
+  background: #161616;
+}
+form .wrapper .box {
+  background: #161616;
+}
+form .wrapper .box label .text {
+  color: #fff;
+}
+form .wrapper .box label {
+  border-color: #212529;
+}
+form .wrapper .box label .dot {
+  background: #212426;
+}
+.item_function {
+  background: #161616;
+}
+.item_function .calculate {
+  background: #161616;
+  color: #fff;
+}
+.item_function .form-control {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #212426;
+}
+.payments input[type="radio"]:checked + label {
+  background-color: rgba(24, 249, 141, 0.2);
+}
+.order_info {
+  background: transparent;
+}
+.order_info .inputBox input {
+  border-bottom-color:#424242;
+  background: transparent;
+  color: #fff;
+}
+.order_info .inputBox span {
+  color: #fff;
+}
+.instruction .nav-tabs .nav-link.active {
+  color: #787979;
+  background-color: transparent;
+  border-color: #212426 #212426 transparent;
+}
+#related_card {
+  color: #fff;
+}
+#item_instruction .ItemList .img {
+  background: transparent;
+}
+.payments label span 
+{
+  color: #fff;
+}
+.card-body * 
+{
+  color:#fff !important
+}
+
+
+/* Payment */
+section .container .contactForm {
+  background: #161616;
+}
+section .container .contactForm h2 {
+  color: #81c0f0;
+}
+section .container .contactForm .formBox .inputBox span {
+  color: #fff;
+}
+section .container .contactForm .formBox .inputBox input, 
+section .container .contactForm .formBox .inputBox textarea {
+  background: transparent;
+  color: #fff;
+}
+
+/* Page */
+.pages h2 
+{
+  color: #fff !important;
+}
+
+.pages .border {
+  border-color: #212426 !important;
+}
+
+/* Wallet */
+.balance .balance_body {
+  background-color: #161616;
+}
+#sub_acc_intro {
+  background: #1c1c06;
+}
+#user_acc_info li.title > div {
+  background: #161616;
+  color: #fff;
+}
+#user_acc_info > ul > li > div {
+  background: #161616;
+}
+/* Footer */
+.footer h4 {
+  color: #c1c1c1;
+}
+.footer-widget h6 {
+  color: #c1c1c1;
+}
+.footer-copyright-text {
+  background-color: #171717;
+}
+
+
+#popup {
+  background: #191919;
+}

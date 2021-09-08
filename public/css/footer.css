@@ -1,0 +1,148 @@
+.footer
+  {
+    background: #ffffff;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer p 
+  {
+    
+
+font-weight: 100;
+color: #c1c1c1;
+
+width: 80%;
+margin-top: 20px;
+  }
+  .footer ul 
+  {
+    padding-left: 0;
+    float: left;
+
+  }
+  .footer h4 
+  {
+    font-weight: 700;
+    font-size: 16px;
+    color: #575757;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .footer .row 
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .footer img 
+  {
+    max-width: 70%;
+  }
+
+  .footer-about
+  {
+    margin-bottom: 30px;
+  }
+  .footer-about .footer-logo
+  {
+    margin-bottom: 30px;
+  }
+  .footer-about p {
+  
+    margin-bottom: 30px;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: #c1c1c1;
+    line-height: 28px;
+    text-align: right;
+    font-family: noto naskh arabic,serif;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .footer-widget
+  {
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-widget h6 
+  {
+    color: #575757;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .footer-widget ul li 
+  {
+    line-height: 36px;
+    list-style: none;
+    width: auto !important;
+
+  }
+  .footer-widget ul li a 
+  {
+    color: #b7b7b7;
+    font-size: 15px;
+  }
+  .footer-widget ul li a:hover 
+  {
+    color:red;
+  }
+  .footer-copyright-text
+  {
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .footer-copyright-text p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .footer .payment-method a ,
+  .footer .footer-info a 
+  {
+    display: inline;
+  margin: 0 5px 0 10px !important;
+  }
+  .footer-info i {
+    color: #7f7f7f;
+    margin-left: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all .2s ease;
+}
+  .footer-info
+  {
+    margin-top: 15px;
+    text-align: left;
+  }
+  .footer-info span 
+  {
+    margin-left: 0;
+    margin-right: 15px;font-size: 12px;
+    font-weight: 700;
+    color: #c1c1c1;
+  }
+  @media (max-width: 990px) {
+    .footer .container
+    {
+      width: 100%;
+    }
+    .footer-widget {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }

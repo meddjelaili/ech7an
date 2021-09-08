@@ -1,0 +1,99 @@
+/* Model */
+
+#popup
+{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: #fff;
+    width: 450px;
+    padding: 80px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    transition: .5s;
+    visibility: hidden;
+}
+#popup.active
+{
+    visibility: visible;
+    top: 50%;
+}
+#popup .content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#popup h2
+{
+    font-size: 1.5rem !important;
+}
+#popup .content img
+{
+    max-width: 30px;
+}
+#popup .close
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+.cash 
+{
+    height: 90px;
+    width: 320px;
+    border: 1px solid #127cd2;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cash .img
+{
+    margin: .7em 1.5em .5em;
+    height: 2em;
+}
+.cash .img img 
+{
+    max-width: 120px !important;
+}
+
+@media (max-width: 600px) {
+    #popup
+    {
+        width: 390px;
+    }
+    #popup h2 
+    {
+        font-size: 1rem !important;
+    }
+}
+@media (max-width: 450px) {
+    #popup
+    {
+        width: 290px;
+        left: 49%;
+    }
+    #popup h2 
+    {
+        font-size: .9rem !important;
+    }
+    .cash {
+        width: 210px;
+    }
+    .cash .img img {
+        max-width: 70px !important;
+    }
+    #popup .cash .name 
+    {
+        font-size: .8em;
+    }
+}
